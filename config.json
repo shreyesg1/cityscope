@@ -1,0 +1,16 @@
+{
+    "api_endpoints": {
+        "nyc_311": "https://data.cityofnewyork.us/resource/erm2-nwe9.json",
+        "nypd_complaints": "https://data.cityofnewyork.us/resource/qgea-i56i.json",
+        "restaurant_inspections": "https://data.cityofnewyork.us/resource/43nn-pn8j.json"
+    },
+    "map_settings": {
+        "center": [40.7128, -74.0060],
+        "zoom_start": 11
+    },
+    "risk_weights": {
+        "crime": 0.4,
+        "complaints": 0.3,
+        "health": 0.3
+    }
+} 
